@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  background-color: #e0ffe0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 100px;
+  color: #2e7d32;
+  text-shadow: 2px 2px 4px #3a3a3a;
+  z-index: 1;
+  position: relative;
+}
+
+.slime-drip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(to bottom, #76ff03, #64dd17);
+  border-bottom-left-radius: 50% 20px;
+  border-bottom-right-radius: 50% 20px;
+  clip-path: polygon(
+    0% 0%, 100% 0%, 100% 50%, 
+    90% 60%, 85% 50%, 80% 65%, 
+    70% 55%, 60% 70%, 50% 50%, 
+    40% 65%, 30% 55%, 20% 65%, 
+    10% 50%, 0% 60%
+  );
+  z-index: 2;
+}
