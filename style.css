@@ -8,27 +8,27 @@ body {
 .title {
   text-align: center;
   font-size: 4rem;
-  margin-top: 200px; /* Moved title further down */
+  margin-top: 200px; /* Moved title further down to avoid overlap */
   color: #ff69b4; /* hot pink */
   text-shadow: 2px 2px 6px #cc2f7d;
   z-index: 1;
   position: relative;
 }
 
-/* Oozing slime dripping unevenly on the left side */
+/* Oozing slime only dripping down from the left side */
 .slime-drip {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 350px; /* Extended height for more slime */
+  height: 250px; /* Adjusted height for better control */
   background: linear-gradient(to bottom, #ffb6c1, #ff69b4); /* light to dark pink */
   clip-path: polygon(
     0% 0%, 100% 0%, 100% 60%, 
-    90% 75%, 80% 90%, 70% 85%, 
-    60% 100%, 50% 90%, 40% 100%, 
-    30% 95%, 20% 100%, 10% 85%, 
-    0% 80%
+    95% 80%, 90% 95%, 80% 90%, 
+    70% 100%, 60% 95%, 50% 100%, 
+    40% 90%, 30% 100%, 20% 85%, 
+    10% 90%, 0% 80%
   );
   z-index: 2;
 }
