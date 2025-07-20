@@ -23,7 +23,7 @@ body {
 .title {
   text-align: center;
   font-size: 4rem;
-  margin-top: 200px; /* moved below the drip */
+  margin-top: 200px;
   color: #ff69b4;
   text-shadow: 2px 2px 6px #cc2f7d;
   z-index: 1;
