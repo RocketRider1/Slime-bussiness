@@ -15,21 +15,23 @@ body {
   position: relative;
 }
 
-/* Uneven, drippy pink slime */
+/* Super drippy, smooth, and natural slime */
 .slime-drip {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 180px;
+  height: 200px;
   background: linear-gradient(to bottom, #ffb6c1, #ff69b4); /* light to dark pink */
   clip-path: polygon(
-    0% 0%, 100% 0%, 100% 50%, 
-    90% 60%, 85% 45%, 80% 55%, 
-    75% 80%, 70% 55%, 60% 70%, 
-    50% 60%, 40% 70%, 30% 50%, 
-    20% 75%, 15% 55%, 10% 70%, 
-    0% 50%
+    0% 0%, 100% 0%, 100% 60%, 
+    90% 75%, 85% 85%, 80% 90%, 
+    75% 85%, 70% 90%, 65% 85%, 
+    60% 95%, 55% 85%, 50% 90%, 
+    45% 85%, 40% 95%, 35% 85%, 
+    30% 90%, 25% 85%, 20% 90%, 
+    15% 80%, 10% 90%, 5% 85%, 
+    0% 60%
   );
   z-index: 2;
 }
