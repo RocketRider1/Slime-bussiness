@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f3d8ff; /* light purple */
+  background-color: #f3d8ff; /* Light purple background */
   font-family: 'Comic Sans MS', cursive, sans-serif;
   overflow-x: hidden;
 }
@@ -23,6 +23,9 @@ body {
 .title {
   text-align: center;
   font-size: 4rem;
-  margin-top: 200px;
-  color: #4b0082; /* dark purple */
-  t
+  margin-top: 200px; /* below the slime */
+  color: #4b0082; /* Dark purple */
+  text-shadow: 2px 2px 6px #aa55dd;
+  z-index: 1;
+  position: relative;
+}
