@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #ffe0f0;
+  background-color: #f3d8ff; /* light purple */
   font-family: 'Comic Sans MS', cursive, sans-serif;
   overflow-x: hidden;
 }
@@ -24,8 +24,5 @@ body {
   text-align: center;
   font-size: 4rem;
   margin-top: 200px;
-  color: #ff69b4;
-  text-shadow: 2px 2px 6px #cc2f7d;
-  z-index: 1;
-  position: relative;
-}
+  color: #4b0082; /* dark purple */
+  t
