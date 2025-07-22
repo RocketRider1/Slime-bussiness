@@ -22,10 +22,10 @@ body {
 
 .title {
   text-align: center;
-  font-size: 4rem;
-  margin-top: 200px; /* below the slime */
-  color: #4b0082; /* Dark purple */
-  text-shadow: 2px 2px 6px #aa55dd;
+  font-size: 5rem; /* Made bigger */
+  margin-top: 200px;
+  color: #ff69b4; /* Pink title to match the slime */
+  text-shadow: 2px 2px 6px #cc2f7d;
   z-index: 1;
   position: relative;
 }
